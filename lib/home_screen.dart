@@ -155,7 +155,7 @@ class ProductCard extends StatelessWidget {
                       Text(
                         product.desc,
                         style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-                        maxLines: 2,
+                        maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                       Spacer(),
